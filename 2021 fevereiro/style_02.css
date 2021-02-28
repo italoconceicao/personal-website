@@ -30,19 +30,23 @@ main {
     align-items:flex-start;
 }
 
-div#cardDescricao {
-
+#card img{
+    margin: 20px 0 0 20px;
 }
 
+/* div#cardDescricao */
+
 div#cardDescricao p#meuNome{
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 40px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
 
 div#cardDescricao p#textoDescricao{
-    font-size: 18px;
+    margin: 10px 10px 0 20px;
+    text-align: justify;
+    font-size: 15px;
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -51,12 +55,27 @@ display: flex;
 justify-content: space-around;
 }
 
+a {
+    text-decoration: none;
+    color: #00693E;
+}
+
 div#cardDescricao .botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+    margin: 20px 0 0 0;
     text-align: center;
-    height: 20px;
-    width: 80px;
+    height: 30px;
+    width: 90px;
     background-color: white;
-    border: solid 1px #50C878;
+    border: solid 2px #50C878;
+    transition: box-shadow 500ms;
+}
+
+div#cardDescricao .botoes:hover {
+    box-shadow: 0 0 8px 4px #50C878;
 }
 
 footer {
