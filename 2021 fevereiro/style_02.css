@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #50C878; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, #50C878, #00693E);
+
+}
+
+main {
+    font-family: 'Varela Round', sans-serif;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#card {
+    height: 380px;
+    width: 550px;
+    background-color:rgba(255, 255, 255, 0.3);
+    border-radius: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+
+div#cardDescricao {
+
+}
+
+div#cardDescricao p#meuNome{
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+div#cardDescricao p#textoDescricao{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.cardBotoes{
+display: flex;
+justify-content: space-around;
+}
+
+div#cardDescricao .botoes{
+    text-align: center;
+    height: 20px;
+    width: 80px;
+    background-color: white;
+    border: solid 1px #50C878;
+}
+
+footer {
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3.5vh;
+    background: rgba(255, 255, 255, 0.6);
+    transform: translate(0,470%);
+}
