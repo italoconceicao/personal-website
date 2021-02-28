@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: url(./3.jpeg) no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+div#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    width: 25vw;
+    height: 65vh;
+    box-shadow: 0 0.5em 1em rgb(56, 68, 68);
+    border-radius: 5%;
+}
+
+div.profileText {
+    text-align: center;
+    opacity: 1;
+}
+
+h1 {
+    color: rgb(253, 106, 61);
+}
+h2 {
+    font-size: 22px;
+    color: rgb(253, 186, 61);
+}
+
+#profilephoto {
+    border-radius: 50%;
+    width: 8vw;
+    opacity: 1;
+}
+
+.socialnet {
+    width: 3vw;
+    margin: 0 10px;
+    border-radius: 8%;
+    opacity: 1;
+    transition: box-shadow 500ms;
+}
+
+.socialnet:hover {
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.2);
+}
+
+footer {
+    text-align: center;
+    color: #FFF;
+    transform: translate(0, 300%);
+}
