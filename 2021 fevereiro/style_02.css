@@ -8,12 +8,42 @@ body {
     width: 100%;
     background-color: #50C878; /* For browsers that do not support gradients */
     background-image: linear-gradient(90deg, #50C878, #00693E);
+}
 
+#projetos {
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    height: 4.5vh;
+    width: 12%;
+    border-radius: 0 0 3% 0;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+h3 {
+    margin-top: 1px;
+    font-size: 24px;
+    color: #50C878
+}
+
+#index{ /*Overlay*//*                                  fazer animação                                  */
+        /* Decorar texto (ítens) do menu */
+    
+    height: 50px;
+    width: 129px;
+    background: rgba(255, 255, 255, 0.6);
+    border: solid 1px #50C878;
+    border-style: outset;
+    border-radius: 4%;
+    transform: translate(25% , 1%);
+
+    /* visibility: hidden; */
+    z-index: 999;
 }
 
 main {
     font-family: 'Varela Round', sans-serif;
-    height: 80%;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,8 +63,6 @@ main {
 #card img{
     margin: 20px 0 0 20px;
 }
-
-/* div#cardDescricao */
 
 div#cardDescricao p#meuNome{
     margin-top: 20px;
@@ -84,6 +112,8 @@ footer {
     align-items: center;
     justify-content: space-around;
     height: 3.5vh;
+    width: 100%;
     background: rgba(255, 255, 255, 0.6);
-    transform: translate(0,470%);
+    position: absolute;
+    bottom: 0;
 }
