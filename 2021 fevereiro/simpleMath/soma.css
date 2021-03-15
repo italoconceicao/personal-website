@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-color: #50C878; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, #50C878, #00693E);
+}
+
+main {
+    font-family: 'Varela Round', sans-serif;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#card {
+    height: 380px;
+    width: 550px;
+    /* background-color:rgba(255, 255, 255, 0.3); */
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+
+h2 {
+    font-size: 46px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px #50C878, -1px -1px #50C878, -1px 1px #50C878, 1px -1px #50C878;
+}
+
+#values {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#values input {
+    font-size: 40px;
+    width: 120px;
+    height: 80px;
+    border-radius: 5%;
+    border-style: none;
+}
+
+#containerBotaoSoma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#somar{
+    height: 60px;
+    width: 50%;
+    background-color: rgba(0, 105, 62, 0.5);
+    border: #50C878;
+    border-style: outset;
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+#card span{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px #50C878, -1px -1px #50C878, -1px 1px #50C878, 1px -1px #50C878;
+}
+
+
+
+
+
+footer {
+    /* width: 100%; */
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3.5vh;
+    background: rgba(255, 255, 255, 0.6);
+    transform: translate(0,470%);
+}

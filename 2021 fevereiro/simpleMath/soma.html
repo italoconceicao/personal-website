@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    <link rel="stylesheet" href="./soma.css">
+</head>
+<body>
+    <main>
+        <div id="card">
+            <h2>Somando Números</h2>
+            <div id="values">
+                <input type="number" name="number1" id="number1">
+                <h2>+</h2>
+                <input type="number" name="number2" id="number2">
+            </div>
+            <div id="containerBotaoSoma">
+                <div onclick="somar()" onmousedown="clickDown()" onmouseup="clickUp()" id="somar">
+                    <p>Somar</p>
+                </div>
+            </div>
+            
+            <span id="resultado">[ Resultado ]</span>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>☆</p>
+        <p>Designed and developed by Ítalo Conceição @ 2021</p>
+        <p>☆</p>
+    </footer>
+
+    <script src="./soma.js"></script>
+</body>
+</html>
