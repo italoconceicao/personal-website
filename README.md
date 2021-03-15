@@ -8,8 +8,10 @@
 - [x] Opacity and generic profile photo.
 - [x] Gradient in the background.
 - [x] HTML + CSS
-- [ ] Introducing Javascript
+- [ ] Introducing Javascript.
 - [ ] Introducing index for projects.
+- [x] EvenOrOdd Project Added.
+- [ ] Simple Math Project Added. 
 
 ### "2020 Outubro" Directory:
   *First Version:*
