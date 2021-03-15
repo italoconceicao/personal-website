@@ -9,7 +9,7 @@
 - [x] Gradient in the background.
 - [x] HTML + CSS
 - [ ] Introducing Javascript.
-- [ ] Introducing index for projects.
+- [x] Index for projects.
 - [x] EvenOrOdd Project Added.
 - [ ] Simple Math Project Added. 
 
