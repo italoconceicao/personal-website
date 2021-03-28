@@ -11,7 +11,8 @@
 - [ ] Introducing Javascript.
 - [x] Index for projects.
 - [x] EvenOrOdd Project Added.
-- [ ] Simple Math Project Added. 
+- [x] Simple Math Project Added. 
+- [ ] Add (-), (*) and (/) opertators to Simple Math Project. 
 
 ### "2020 Outubro" Directory:
   *First Version:*
