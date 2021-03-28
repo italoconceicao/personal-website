@@ -10,15 +10,18 @@
 </head>
 <body>
     <header>
-        <div id="projetos" onclick="menu.show()">
+        <div id="projetos" onmouseover="menu.show()">
             <img src="menu.svg" alt="Menu">
             <h3>PROJETOS</h3>
         </div>
-        <div id="index">
-            <!-- Transformar em unordered list (lembrar de alterar no css) -->
-            <a href="./even/even.html" target="_blank"><p>- EvenOrOdd / Par ou Ímpar</p></a>
-            <!-- <a href="./" target="_blank">NOVO PROJETO AQUI</a> -->
-        </div>
+        <nav>
+            <div id="index" onmouseleave="menu.hide()">
+                <a href="./even/even.html" target="_blank"><p>- EvenOrOdd / Par ou Ímpar</p></a>
+                <hr>
+                <a href="./simpleMath/soma.html" target="_blank"><p>- Simple Math / Soma</p></a>
+                <!-- <a href="./" target="_blank">NOVO PROJETO AQUI</a> -->
+            </div>
+        </nav>
     </header>
     
     <main>
