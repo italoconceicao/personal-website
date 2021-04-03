@@ -13,6 +13,7 @@
 - [x] EvenOrOdd Project Added.
 - [x] Simple Math Project Added. 
 - [ ] Add (-), (*) and (/) opertators to Simple Math Project. 
+- [x] What Hour Project Added.
 
 ### "2020 Outubro" Directory:
   *First Version:*
